@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GLmfc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/GLmfc.res" /d "NDEBUG" /d "_AFXDLL" "E:\documents\Graphics\projects\三维分布\layout 2.0 code+exe\layout 2.0 code\GLmfc.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP636E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /FR"Release/" /Fp"Release/GLmfc.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\documents\Graphics\projects\三维分布\layout 2.0 code+exe\layout 2.0 code\GLmfc.cpp"
+"E:\documents\Graphics\projects\三维分布\layout 2.0 code+exe\layout 2.0 code\mainDlg.cpp"
+"E:\documents\Graphics\projects\三维分布\layout 2.0 code+exe\layout 2.0 code\setNvDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP636E.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP636F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /FR"Release/" /Fp"Release/GLmfc.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\documents\Graphics\projects\三维分布\layout 2.0 code+exe\layout 2.0 code\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP636F.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6370.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/GLmfc.pdb" /machine:I386 /out:"Release/GLmfc.exe" 
+".\Release\GLmfc.obj"
+".\Release\mainDlg.obj"
+".\Release\setNvDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\GLmfc.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6370.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GLmfc.cpp
+mainDlg.cpp
+E:\documents\Graphics\projects\三维分布\layout 2.0 code+exe\layout 2.0 code\myclass.h(43) : warning C4183: 'initSpace': member function definition looks like a ctor, but name does not match enclosing class
+E:\documents\Graphics\projects\三维分布\layout 2.0 code+exe\layout 2.0 code\myclass.h(46) : warning C4183: 'shutLayoutProc': member function definition looks like a ctor, but name does not match enclosing class
+E:\documents\Graphics\projects\三维分布\layout 2.0 code+exe\layout 2.0 code\myclass.h(66) : warning C4183: 'initLayoutProc': member function definition looks like a ctor, but name does not match enclosing class
+E:\documents\Graphics\projects\三维分布\layout 2.0 code+exe\layout 2.0 code\myclass.h(134) : warning C4183: 'initGraph': member function definition looks like a ctor, but name does not match enclosing class
+E:\documents\Graphics\projects\三维分布\layout 2.0 code+exe\layout 2.0 code\myclass.h(110) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+setNvDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/GLmfc.bsc"  ".\Release\StdAfx.sbr" ".\Release\GLmfc.sbr" ".\Release\mainDlg.sbr" ".\Release\setNvDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+GLmfc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
